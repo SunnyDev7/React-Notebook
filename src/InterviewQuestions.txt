@@ -1,0 +1,57 @@
+1) What do you like about react ?
+    ex - React is all javascript and simple flow from parent to child comp
+    -> Virtual DOM in react
+
+2) conditional rendering and List rendering
+    -> what is the significance of having the key prop when rendering a list of elements 
+
+3) Class component's life cycle methods
+    -> there will always be old code that you need to maintain during job.
+    -> learn mount, update and unmount methods
+    -> order of invocation and a brief description of when you'd use each one of them
+
+4)Context API
+    -> what is prop drilling, how you can overcome that using the context API
+
+5) Hooks
+    -> what was the need for hooks?
+    -> useState, useEffect, useContext and useReducer
+
+6) Performance Optimization
+    -> Fragments
+    -> Pure Components
+    -> memo
+    -> useMemo and useCallback
+
+7) API Handling
+    -> Fetch() and Axios()
+    -> local Storage and Session Storage
+
+8) How to share logic across components? **(optional for now)**
+    -> Higher order components
+    -> Render props pattern
+    -> Custom Hooks
+
+9) What are some of the package that you use along with React? *(optional)*
+    -> Styling (eg, bootstrap, react-icons, reactstrap)
+    -> Routing (eg, react-router-dom)
+    -> Form Handling(eg, Formik)
+    -> State Management(eg, Redux)
+    -> CRA v Custom webpack config
+
+10) Explain what project you have built in React so far.
+
+
+
+
+
+
+
+- odd even program
+- max or min out of three elements
+- factorial
+- prime number
+- fibonacci series
+- armstrong number
+- palindrome *
+- 2nd max or 2nd min *

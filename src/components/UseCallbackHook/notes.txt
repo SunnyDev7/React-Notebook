@@ -1,0 +1,19 @@
+{ /*need of useaCallback hook => when we change state of a particular component among many other components during run time.. 
+what react does is it re-renders all the components and this can cause performance issue in a scenario of many components
+So in order to let react know that only a specific component needs to be re-render during state change, rather 
+re-rendering all the components and performing unnecessary rendering */ } //this is called performance optimization
+
+//one solution to this problem is memo, but its not the most efficient one
+
+//what is useCallback Hook?
+//useCallback is a hook that will return a memoized version of the callback function that only changes if
+//one of the dependencies has changed
+
+//why?
+//It is useful when passing callbacks to optimized child components that rely on
+//refrence equality to prevent unnecessary renders
+
+
+//in simpler words when a useCallback hook is passed to a function that function is cached
+//and if the value of dependency list if changed then only new function is created for every rerender
+//or else the cached function is returned only
