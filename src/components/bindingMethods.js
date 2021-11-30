@@ -31,4 +31,4 @@
     //body
 //}
 
-//onClick={this.ClickHandler} //preferable method
+//onClick={this.clickHandler} //preferable method
