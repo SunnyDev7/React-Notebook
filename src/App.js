@@ -7,20 +7,20 @@ import React from 'react'
 //import UseReducerHook from './components/UseReducerHook'
 //import componentLifeCycles from './components/componetLifeCycles'
 // import ParentComp from './components/pureComponent/ParentComp'
-import UseCallBack from './components/UseCallbackHook/ParentComponent'
+//import UseCallBack from './components/UseCallbackHook/ParentComponent'
 //import UseMemoHook from './components/UseMemoHook'
 
 function App() {
   return (
     <div>
-      {/*Listndkeys />*/}
+      {/* <Listndkeys /> */}
       {/*<UseStateHook />*/}
-      {/*<UseEffectHook />*/}
-      {/*<UseContextHook />*/}
-      {/*<UseReducerHook />*/}
+      {/* <UseEffectHook /> */}
+      {/* <UseContextHook /> */}
+      {/* <UseReducerHook /> */}
       {/*<componentLifeCycles />*/}
       {/* <ParentComp /> purecomponent nd memo*/}
-      < UseCallBack />
+      {/* < UseCallBack /> */}
       {/* <UseMemoHook /> */}
     </div>
   )
